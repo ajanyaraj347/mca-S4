@@ -1,0 +1,12 @@
+echo "enter a limit"
+read l
+	
+echo "Enter a Number"
+read n
+i=0
+while [ $i -le $l ]
+do
+    echo " $n x $i = `expr $n \* $i`"
+    i=`expr $i + 1`
+done
+

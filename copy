@@ -1,0 +1,9 @@
+echo "starting line:"
+read a
+echo "ending line:"
+read b
+echo "enter file:"
+read s
+sed -n "$a,$b p" file
+
+

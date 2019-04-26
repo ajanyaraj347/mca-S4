@@ -1,0 +1,9 @@
+echo "enter a word to serach"
+read s
+echo "enter a word to replace"
+read rr
+sed -i "s/$s/$rr/g" r
+cat r
+
+
+

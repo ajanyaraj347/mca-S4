@@ -1,0 +1,9 @@
+echo $1
+echo $2
+echo $#
+ if [ $# -lt 2 ]  
+then
+echo invalid arguments
+else
+echo $(($1 + $2))
+fi

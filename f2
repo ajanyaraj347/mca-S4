@@ -1,0 +1,7 @@
+echo "enter size(n)"
+read n
+for ((i=1;i<=n;i++))
+do cp f1 "f1$i"
+echo f1$i
+done
+

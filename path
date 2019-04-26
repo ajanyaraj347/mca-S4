@@ -1,0 +1,4 @@
+Here is a small shell script that counts the lines, words & characters in a file. 
+Most shell scripts utilize other programs2!.
+In this case, it is wc, the standard Unix utility to count words, lines and characters in a file.
+1 Without further delay, let's get into the source code. We'll explain it later.
